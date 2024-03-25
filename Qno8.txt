@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+double getAverage(int arr[], int size);  1. Here we initilize the  array and  its size but 
+                                            not define anything insdide the function 
+int main () {
+int balance[5] = {1000, 2, 3, 17, 50};
+double avg;
+avg = getAverage( balance[0], 5 ) ;   2. Here we pass the first element of of array not whole array
+cout << "Average value is: " << avg << endl;
+return 0;
+}
